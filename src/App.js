@@ -1,14 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+                <img src="/imgs/logo.png" className="App-logo" alt="likeni" />
+
                 <p>
-                    李柯妮的个人网站
+                    李柯妮的个人网站（coming soon...）
                 </p>
+
             </header>
         </div>
     );
