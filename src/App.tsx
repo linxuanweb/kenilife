@@ -1,4 +1,4 @@
-import './App.css';
+import './App.less';
 import "@arco-design/web-react/dist/css/arco.css";
 import React from 'react'
 
