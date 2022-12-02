@@ -24,7 +24,8 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "deploy": "npm run build && gh-pages -d build"
+        "deploy": "npm run build && gh-pages -d build",
+        "test:types": "tsc"
     },
     "eslintConfig": {
         "extends": [
@@ -44,7 +45,5 @@
             "last 1 safari version"
         ]
     },
-    "devDependencies": {
-        "ts-migrate": "^0.1.35"
-    }
+    "devDependencies": {}
 }
